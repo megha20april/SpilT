@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyBMj0kB8m7sqvXhaXQ6orFJOEiVaF2rFzw",
+  authDomain: "spilt-cb2ed.firebaseapp.com",
+  projectId: "spilt-cb2ed",
+  storageBucket: "spilt-cb2ed.appspot.com",
+  messagingSenderId: "975097172476",
+  appId: "1:975097172476:web:f047e32a29284ef496a279",
 };
 
 // Initialize Firebase for SSR

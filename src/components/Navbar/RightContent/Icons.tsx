@@ -28,6 +28,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
+          color="white"
           _hover={{ bg: "gray.200" }}
         >
           <Icon as={BsArrowUpRightCircle} fontSize={20} />
@@ -38,6 +39,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
+          color="white"
           _hover={{ bg: "gray.200" }}
         >
           <Icon as={IoFilterCircleOutline} fontSize={22} />
@@ -48,6 +50,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
+          color="white"
           _hover={{ bg: "gray.200" }}
         >
           <Icon as={IoVideocamOutline} fontSize={22} />
@@ -60,6 +63,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
+          color="white"
           _hover={{ bg: "gray.200" }}
         >
           <Icon as={BsChatDots} fontSize={20} />
@@ -70,6 +74,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
+          color="white"
           _hover={{ bg: "gray.200" }}
         >
           <Icon as={IoNotificationsOutline} fontSize={20} />
@@ -81,6 +86,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
+          
           _hover={{ bg: "gray.200" }}
           onClick={toggleMenuOpen}
         >
