@@ -50,7 +50,7 @@ const Directory: React.FC = () => {
                     <Icon
                       fontSize={24}
                       mr={{ base: 1, md: 2 }}
-                      color={directoryState.selectedMenuItem.iconColor}
+                      color="gray.400"
                       as={directoryState.selectedMenuItem.icon}
                     />
                   )}
@@ -59,7 +59,7 @@ const Directory: React.FC = () => {
                     flexDirection="column"
                     fontSize="10pt"
                   >
-                    <Text fontWeight={600}>
+                    <Text color="gray.400" fontWeight={600}>
                       {directoryState.selectedMenuItem.displayText}
                     </Text>
                   </Box>

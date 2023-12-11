@@ -22,39 +22,6 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
         borderRight="1px solid"
         borderColor="gray.200"
       >
-        <Flex
-          mr={1.5}
-          ml={1.5}
-          padding={1}
-          cursor="pointer"
-          borderRadius={4}
-          color="white"
-          _hover={{ bg: "gray.200" }}
-        >
-          <Icon as={BsArrowUpRightCircle} fontSize={20} />
-        </Flex>
-        <Flex
-          mr={1.5}
-          ml={1.5}
-          padding={1}
-          cursor="pointer"
-          borderRadius={4}
-          color="white"
-          _hover={{ bg: "gray.200" }}
-        >
-          <Icon as={IoFilterCircleOutline} fontSize={22} />
-        </Flex>
-        <Flex
-          mr={1.5}
-          ml={1.5}
-          padding={1}
-          cursor="pointer"
-          borderRadius={4}
-          color="white"
-          _hover={{ bg: "gray.200" }}
-        >
-          <Icon as={IoVideocamOutline} fontSize={22} />
-        </Flex>
       </Box>
       <>
         <Flex
@@ -86,7 +53,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
-          
+          color="white"
           _hover={{ bg: "gray.200" }}
           onClick={toggleMenuOpen}
         >

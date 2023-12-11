@@ -120,11 +120,10 @@ const Recommendations: React.FC<RecommendationsProps> = () => {
                             mr={2}
                           />
                         ) : (
-                          <Icon
-                            as={FaReddit}
-                            fontSize={30}
-                            color="brand.100"
-                            mr={2}
+                          <Image
+                            src="/images/SpilT.png"
+                            height="25px"
+                            marginRight={"5px"}
                           />
                         )}
                         <span

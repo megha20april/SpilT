@@ -52,12 +52,12 @@ const MenuWrapper: React.FC<MenuWrapperProps> = () => {
                   alignItems="flex-start"
                   mr={8}
                 >
-                  <Text fontWeight={700}>
+                  <Text fontWeight={700} color="white">
                     {user?.displayName || user?.email?.split("@")[0]}
                   </Text>
                   <Flex alignItems="center">
                     <Icon as={IoSparkles} color="brand.100" mr={1} />
-                    <Text color="gray.400">1 karma</Text>
+                    <Text color="gray.400">1 Token</Text>
                   </Flex>
                 </Box>
               </>

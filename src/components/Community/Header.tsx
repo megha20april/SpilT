@@ -38,15 +38,11 @@ const Header: React.FC<HeaderProps> = ({ communityData }) => {
               border="4px solid white"
             />
           ) : (
-            <Icon
-              as={FaReddit}
-              fontSize={64}
-              position="relative"
-              top={-3}
-              color="blue.500"
-              border="4px solid white"
-              borderRadius="50%"
-            />
+            <Image
+          src="/images/SpilT.png"
+          height="30px"
+          marginRight={"5px"}
+        />
           )}
           <Flex padding="10px 16px">
             <Flex direction="column" mr={6}>

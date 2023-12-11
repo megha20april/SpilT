@@ -16,7 +16,7 @@ const ActionIcon: React.FC<ActionIcon> = ({ icon, size }) => {
       cursor="pointer"
       _hover={{ bg: "gray.200" }}
     >
-      <Icon as={icon} fontSize={size} />
+      <Icon as={icon}  fontSize={size} />
     </Flex>
   );
 };
